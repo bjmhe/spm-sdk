@@ -3,23 +3,23 @@
  */
 // #region Interfaces
 export interface SpmH5SDKCKOptions {
-  target: HTMLElement;
-  spm: string;
-  scm: string;
-  biz_type: string;
+  target?: HTMLElement;
+  spm?: string;
+  scm?: string[];
+  biz_type?: string;
   event_id?: string;
   json_param?: string;
 }
 export interface SpmH5SDKEPOptions {
-  target: HTMLElement;
-  spm: string;
-  scm: string;
-  biz_type: string;
+  target?: HTMLElement;
+  spm?: string;
+  scm?: string[];
+  biz_type?: string;
   event_id?: string;
   json_param?: string;
 }
 export interface SpmH5SDKInstallOptions {
-  siteId: string;
+  siteId?: string;
   account?: string;
   ma_app_id?: string;
   autoClickTag?: string;
@@ -27,7 +27,7 @@ export interface SpmH5SDKInstallOptions {
   [key: string]: string | boolean | undefined;
 }
 export interface SpmH5SDKPVOptions {
-  spm: string;
+  spm?: string;
   page_id?: string;
   page_param?: string;
   trafficmap_aid?: string;

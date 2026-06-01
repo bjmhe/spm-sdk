@@ -1,7 +1,7 @@
 /** H5 SDK 初始化配置 */
 export interface SpmH5SDKInstallOptions {
   /** 站点编号 */
-  siteId: string;
+  siteId?: string;
   /** 登录账号 */
   account?: string;
   /** 应用ID */
@@ -16,7 +16,7 @@ export interface SpmH5SDKInstallOptions {
 /** 页面浏览（PV）上报参数 */
 export interface SpmH5SDKPVOptions {
   /** SPM 埋点编码 */
-  spm: string;
+  spm?: string;
   /** 页面ID */
   page_id?: string;
   /** 页面参数，用于自定义页面维度信息 */
@@ -28,13 +28,13 @@ export interface SpmH5SDKPVOptions {
 /** 点击（Click）事件上报参数 */
 export interface SpmH5SDKCKOptions {
   /** 事件 e.target */
-  target: HTMLElement;
+  target?: HTMLElement;
   /** SPM 埋点编码 */
-  spm: string;
+  spm?: string;
   /** SCM 营销链路编码 */
-  scm: string;
+  scm?: string[];
   /** 业务类型 */
-  biz_type: string;
+  biz_type?: string;
   /** 事件参数 */
   event_id?: string;
   /** JSON 格式扩展参数 */
@@ -44,13 +44,13 @@ export interface SpmH5SDKCKOptions {
 /** 曝光（Exposure）事件上报参数 */
 export interface SpmH5SDKEPOptions {
   /** 事件 e.target */
-  target: HTMLElement;
+  target?: HTMLElement;
   /** SPM 埋点编码 */
-  spm: string;
+  spm?: string;
   /** SCM 营销链路编码 */
-  scm: string;
+  scm?: string[];
   /** 业务类型 */
-  biz_type: string;
+  biz_type?: string;
   /** 事件参数 */
   event_id?: string;
   /** JSON 格式扩展参数 */
