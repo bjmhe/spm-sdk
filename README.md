@@ -42,11 +42,7 @@ vp install -D @jd/spm-sdk
 
 <!-- automd:file src="./examples/helloWorld.ts" code lang="ts" -->
 
-```ts [helloWorld.ts]
-import { helloWorld } from "../src";
-
-console.log(helloWorld());
-```
+<!-- ⚠️  (file) ENOENT: no such file or directory, open '/home/runner/work/spm-sdk/spm-sdk/examples/helloWorld.ts' -->
 
 <!-- /automd -->
 
