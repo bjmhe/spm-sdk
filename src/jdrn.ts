@@ -95,7 +95,13 @@ export interface SpmJDRNSDKEPOptions {
  */
 export class SpmJDRNSDK {
   /** 初始化 SDK */
-  static install() {}
+  static install() {
+    console.warn(
+      "JDRN 安卓/iOS 平台依赖 @jdreact/jdreact-jsbundle-commonpack>=2.1.50，请确保已安装",
+    );
+    console.warn("JDRN 鸿蒙 平台依赖 @jdreact/jdreact-jsbundle-commonpack>=3.0.5，请确保已安装");
+    console.warn("版本控制：京东app-15.1.60（发布时间约：2025.06.25）");
+  }
 
   /**
    * 页面浏览（PV）上报
