@@ -2,11 +2,14 @@ import { lib } from "@bjmhe/viteplus-preset";
 
 export default lib(
   {
-    entry: "shallow"
+    entry: "shallow",
   },
   {
+    lint: {
+      ignorePatterns: ["src/lib/weixinAppReport.js"],
+    },
     fmt: {
-      ignorePatterns: ["src/sdk-wxmp/weixinAppReport.js"],
+      ignorePatterns: ["src/lib/weixinAppReport.js"],
     },
   },
 );
