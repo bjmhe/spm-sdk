@@ -9,16 +9,8 @@
     "vite",
     "vite-plus"
   ],
-  "homepage": "https://github.com/bjmhe/template#readme",
-  "bugs": {
-    "url": "https://github.com/bjmhe/template/issues"
-  },
   "license": "MIT",
   "author": "Benjamin He <hi@bjmhe.me>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bjmhe/template.git"
-  },
   "files": [
     "dist",
     "README.md"

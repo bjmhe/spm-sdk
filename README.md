@@ -1,15 +1,5 @@
 # @jd/spm-sdk
 
-<!-- automd:badges bundlephobia license engine provider=npmx -->
-
-[![npm version](https://npmx.dev/api/registry/badge/version/@jd/spm-sdk)](https://npmjs.com/package/@jd/spm-sdk)
-[![npm downloads](https://npmx.dev/api/registry/badge/downloads/@jd/spm-sdk)](https://npm.chart.dev/@jd/spm-sdk)
-[![bundle size](https://npmx.dev/api/registry/badge/size/@jd/spm-sdk)](https://bundlephobia.com/package/@jd/spm-sdk)
-[![license](https://npmx.dev/api/registry/badge/license/@jd/spm-sdk)](https://github.com/bjmhe/template/blob/main/LICENSE)
-[![engine](https://npmx.dev/api/registry/badge/engines/@jd/spm-sdk)](https://npmx.dev/api/registry/badge/engines/@jd/spm-sdk)
-
-<!-- /automd -->
-
 The SPM SDK for JD.com.
 
 ## Install
