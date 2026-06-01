@@ -30,6 +30,12 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
+    "./h5": "./dist/h5.js",
+    "./jdmp": "./dist/jdmp.js",
+    "./jdrn": "./dist/jdrn.js",
+    "./pc": "./dist/pc.js",
+    "./tn": "./dist/tn.js",
+    "./wxmp": "./dist/wxmp.js",
     "./package.json": "./package.json"
   },
   "publishConfig": {

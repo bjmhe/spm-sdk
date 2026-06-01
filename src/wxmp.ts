@@ -76,7 +76,7 @@ export class SpmWXMPSDK {
   static install(options: SpmWXMPSDKInstallOptions) {
     try {
       // 加载微信小程序埋点工具并初始化
-      const logUtil = require("./weixinAppReport.js");
+      const logUtil = require("./lib/weixinAppReport.js");
       SpmWXMPSDK.log = logUtil.init();
       // 设置站点、账号等配置信息
       SpmWXMPSDK.log.set({

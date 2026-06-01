@@ -1,6 +1,6 @@
-export { SpmH5SDK } from "./sdk-h5";
-export { SpmJDMPSDK } from "./sdk-jdmp";
-export { SpmJDRNSDK } from "./sdk-jdrn";
-export { SpmPCSDK } from "./sdk-pc";
-export { SpmTNSDK } from "./sdk-tn";
-export { SpmWXMPSDK } from "./sdk-wxmp";
+export { SpmH5SDK } from "./h5";
+export { SpmJDMPSDK } from "./jdmp";
+export { SpmJDRNSDK } from "./jdrn";
+export { SpmPCSDK } from "./pc";
+export { SpmTNSDK } from "./tn";
+export { SpmWXMPSDK } from "./wxmp";
