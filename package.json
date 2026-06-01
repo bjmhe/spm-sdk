@@ -1,7 +1,7 @@
 {
   "name": "@jd/spm-sdk",
   "version": "3.0.0",
-  "description": "A template for creating a TypeScript package.",
+  "description": "The SPM SDK for JD.com",
   "keywords": [
     "package",
     "preset",

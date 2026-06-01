@@ -1,4 +1,4 @@
-# template
+# @jd/spm-sdk
 
 <!-- automd:badges bundlephobia license engine provider=npmx -->
 
@@ -10,7 +10,7 @@
 
 <!-- /automd -->
 
-A template for creating a TypeScript package.
+The SPM SDK for JD.com.
 
 ## Install
 
