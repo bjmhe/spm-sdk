@@ -3,7 +3,6 @@
  */
 // #region Classes
 export class SpmWXMPSDK {
-  static log
   static install(_) {}
   static pv(_) {}
   static ck(_) {}
