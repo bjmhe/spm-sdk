@@ -18,6 +18,12 @@ const jd: {
   spmExposure: Function;
 };
 
+const JDMta: {
+  sendSpmPvData: Function;
+  sendSpmClickData: Function;
+  sendSpmExposureData: Function
+}
+
 interface Window {
   jaq: any;
   spmPV: Function;
@@ -25,4 +31,5 @@ interface Window {
   spmExposure: Function;
   spmSystem: Function;
   MPing: MPing;
+  JDMta: JDMta;
 }
