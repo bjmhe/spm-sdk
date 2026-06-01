@@ -2,11 +2,11 @@
 
 <!-- automd:badges bundlephobia license engine provider=npmx -->
 
-[![npm version](https://npmx.dev/api/registry/badge/version/template)](https://npmjs.com/package/template)
-[![npm downloads](https://npmx.dev/api/registry/badge/downloads/template)](https://npm.chart.dev/template)
-[![bundle size](https://npmx.dev/api/registry/badge/size/template)](https://bundlephobia.com/package/template)
-[![license](https://npmx.dev/api/registry/badge/license/template)](https://github.com/bjmhe/template/blob/main/LICENSE)
-[![engine](https://npmx.dev/api/registry/badge/engines/template)](https://npmx.dev/api/registry/badge/engines/template)
+[![npm version](https://npmx.dev/api/registry/badge/version/@jd/spm-sdk)](https://npmjs.com/package/@jd/spm-sdk)
+[![npm downloads](https://npmx.dev/api/registry/badge/downloads/@jd/spm-sdk)](https://npm.chart.dev/@jd/spm-sdk)
+[![bundle size](https://npmx.dev/api/registry/badge/size/@jd/spm-sdk)](https://bundlephobia.com/package/@jd/spm-sdk)
+[![license](https://npmx.dev/api/registry/badge/license/@jd/spm-sdk)](https://github.com/bjmhe/template/blob/main/LICENSE)
+[![engine](https://npmx.dev/api/registry/badge/engines/@jd/spm-sdk)](https://npmx.dev/api/registry/badge/engines/@jd/spm-sdk)
 
 <!-- /automd -->
 
@@ -18,22 +18,22 @@ A template for creating a TypeScript package.
 
 ```sh
 # npm
-npm install -D template
+npm install -D @jd/spm-sdk
 
 # yarn
-yarn add -D template
+yarn add -D @jd/spm-sdk
 
 # pnpm
-pnpm add -D template
+pnpm add -D @jd/spm-sdk
 
 # bun
-bun install -D template
+bun install -D @jd/spm-sdk
 
 # deno
-deno install --dev npm:template
+deno install --dev npm:@jd/spm-sdk
 
 # vp
-vp install -D template
+vp install -D @jd/spm-sdk
 ```
 
 <!-- /automd -->
