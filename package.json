@@ -1,6 +1,6 @@
 {
   "name": "@jd/spm-sdk",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "The SPM SDK for JD.com",
   "keywords": [
     "package",
