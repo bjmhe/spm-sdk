@@ -172,14 +172,6 @@ SpmWXMPSDK.ep({
 
 <!-- /automd -->
 
-## Licenses
-
-<!-- automd:contributors markupGoLogo anon author="bjmhe" license="MIT" -->
-
-<!-- ⚠️  (contributors) `github` is required! -->
-
-<!-- /automd -->
-
 <!-- automd:with-automd -->
 
 ---
