@@ -21,8 +21,8 @@ const jd: {
 const JDMta: {
   sendSpmPvData: Function;
   sendSpmClickData: Function;
-  sendSpmExposureData: Function
-}
+  sendSpmExposureData: Function;
+};
 
 interface Window {
   jaq: any;
