@@ -1,5 +1,14 @@
+/** 子午线 H5 MPing 上报实例（由外部脚本提供） */
+declare class SpmPV {}
+declare class SpmClick {}
+declare class SpmExposure {}
+
 class MPing {
-  static inputs;
+  static inputs: {
+    SpmPV: new (options?: object) => SpmPV;
+    SpmClick: new (options?: object) => SpmClick;
+    SpmExposure: new (options?: object) => SpmExposure;
+  };
   send(options: SpmPV | SpmClick | SpmExposure): void;
 }
 
