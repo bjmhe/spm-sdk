@@ -168,12 +168,7 @@ SpmWXMPSDK.ep({
 
 <!-- automd:contributors markupGoLogo anon author="bjmhe" license="MIT" -->
 
-Published under the [MIT](https://github.com/bjmhe/template/blob/main/LICENSE) license.
-Made by [@bjmhe](https://github.com/bjmhe) and [community](https://github.com/bjmhe/template/graphs/contributors) 💛
-<br><br>
-<a href="https://github.com/bjmhe/template/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=bjmhe/template&anon=true" />
-</a>
+<!-- ⚠️  (contributors) `github` is required! -->
 
 <!-- /automd -->
 
