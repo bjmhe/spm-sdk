@@ -4,8 +4,8 @@
 // #region Classes
 export class SpmJDRNSDK {
   static install() {}
-  static pv() {}
-  static ck() {}
-  static ep() {}
+  static pv(_) {}
+  static ck(_) {}
+  static ep(_) {}
 }
 // #endregion
