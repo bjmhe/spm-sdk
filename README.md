@@ -62,7 +62,7 @@ SpmH5SDK.ck({
   // @ts-ignore
   target: event.target as HTMLElement,
   spm: "a.b.c.d",
-  scm: "1.1.1.1",
+  scm: ["1"],
   biz_type: "click",
 });
 
@@ -71,7 +71,7 @@ SpmH5SDK.ep({
   // @ts-ignore
   target: element,
   spm: "a.b.c.d",
-  scm: "1.1.1.1",
+  scm: ["1"],
   biz_type: "exposure",
 });
 ```
