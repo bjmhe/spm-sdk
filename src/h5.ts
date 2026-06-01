@@ -99,7 +99,7 @@ export class SpmH5SDK {
     try {
       // 构造 PV 上报对象并发送
       const spmPv = new MPing.inputs.SpmPV(options);
-      new MPing().send(spmPv);
+      (new MPing()).send(spmPv);
     } catch (error) {
       console.error(error);
     }
@@ -114,7 +114,7 @@ export class SpmH5SDK {
     try {
       // 构造点击上报对象并发送
       const click = new MPing.inputs.SpmClick({ ...options });
-      new MPing().send(click);
+      (new MPing()).send(click);
     } catch (error) {
       console.error(error);
     }
@@ -129,7 +129,7 @@ export class SpmH5SDK {
     try {
       // 构造曝光上报对象并发送
       const exposure = new MPing.inputs.SpmExposure({ ...options });
-      new MPing().send(exposure);
+      (new MPing()).send(exposure);
     } catch (error) {
       console.error(error);
     }
